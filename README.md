@@ -45,4 +45,52 @@ This project heavily utilizes **Object-Oriented Programming (OOP)** principles:
 - `AssetTest.cpp, StockTest.cpp, BondTest.cpp, PortfolioManagerTest.cpp, etc.` → **Unit tests** for individual components.
 
 ---
+## 🏆 Contributions & My Role
+This was a **group project**, and my contributions included:
+
+- **Developing the `PortfolioManager` & `Transaction` classes** to handle financial operations.
+- **Implementing `FileManager`** to enable data storage and retrieval.
+- **Writing unit tests** for critical components (`PortfolioManagerTest`, `TransactionTest`).
+- **Ensuring data persistence & debugging complex issues** to optimize system performance.
+## 🏦 How the System Works & Example Usage
+### 🔹 1️⃣ User Login/Register
+- If the user exists in `users.txt`, they log in.
+- Otherwise, a **new user profile** is created.
+
+### 🔹 2️⃣ Portfolio Overview
+- Displays **current assets**, their **total value**, and **profit/loss**.
+
+### 🔹 3️⃣ Buy/Sell Transactions
+- Users can **buy or sell assets**, which are recorded in `transactions.txt`.
+
+### 🔹 4️⃣ Historical Price Analysis
+- Prices are loaded from `historical_prices.txt` to track asset trends.
+
+### 🔹 5️⃣ Save & Exit
+- Portfolio and transactions are **saved before exiting**.
+
+---
+
+## 🖥️ Example Usage
+
+### **User logs in and views their portfolio:**
+```markdown
+Welcome to the Financial Portfolio Manager!
+1. View Portfolio
+2. Buy Asset
+3. Sell Asset
+4. Exit
+
+Enter Asset Type: Stock
+Enter Stock Name: Apple Inc.
+Enter Quantity: 10
+Enter Purchase Price: 150.00
+Stock successfully added to portfolio!
+
+User: Minhaj
+----------------------------
+Apple Inc. (Stock) - 10 shares @ $150.00
+Bitcoin (Cryptocurrency) - 0.5 BTC @ $40,000.00
+Total Portfolio Value: $20,150.00
+
 
